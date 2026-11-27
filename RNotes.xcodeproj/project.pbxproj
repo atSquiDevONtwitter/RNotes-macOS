@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFBA0A6455BCA4409550530 /* RNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F1DEF06E49F97773AACAD /* RNotesApp.swift */; };
+		9B0584B21C4EF9120AF3FC80 /* RNotesCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9413354F434D90D21D4D10 /* RNotesCommands.swift */; };
+		A45C011294F18F8528A99CC6 /* Attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BB7C8F6CF8D7F64135F74 /* Attachments.swift */; };
+		89AE0911973C318ABBC87C09 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E42ACC1084181704785DBC /* Models.swift */; };
+		2D3EF59DAEB58FC5A1D9BD06 /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE742F1D361E09121DA9108 /* NoteStore.swift */; };
+		DA5B27BBBC8B9642CCC7AF75 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217418F1E3C697DB8917826 /* Tags.swift */; };
+		6AE59A0639AE9A5A0D5D8525 /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C7A58A65969594343F483 /* Templates.swift */; };
+		D4A9CC04461AACB71825F81C /* WikiLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8633E5ED37D849D7B2148 /* WikiLinks.swift */; };
+		F4B4654A0C003FEEDD0214EB /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262B1BF2DC9A4192498278D /* Database.swift */; };
+		43226131DD251D13273E5674 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955D5AFF59B17E790893B09 /* SQLite.swift */; };
+		9EE11DA5F629C8B9D72F2F43 /* CryptoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407780057371DBF5BA484F9 /* CryptoBox.swift */; };
+		95F347CD690915C59B53A36C /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB2A7780132964F723B53B /* Vault.swift */; };
+		4108E773703C96627BEE0EC8 /* BacklinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686F3560DA96B5FFAF70FD99 /* BacklinksView.swift */; };
+		E79BB547ED4BE5A144456AE2 /* ChainedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063D02FA2844AC5A7573D19 /* ChainedField.swift */; };
+		5780AD64066F0341A42A4834 /* FolderNameSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ECC19E42D4ECFD61D7015 /* FolderNameSheet.swift */; };
+		90F8FB8166251DE1856C8A8C /* LockedNotesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842C3B92231FF19613400BF /* LockedNotesViews.swift */; };
+		7A4546970212433C9396EFD8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A1695B0039A258464FAEFE /* MainView.swift */; };
+		B3BDB52B3377949BE8FC6CED /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130F6B79BE112FAD0F8A044 /* NoteEditorView.swift */; };
+		BBDF874CEFCA3D57D19A620B /* NoteInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A55AACE7165649F9C33DF /* NoteInfoView.swift */; };
+		68FB07A6F20DC742F6D2F268 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A7064891C9E85F29DFDF2 /* NoteListView.swift */; };
+		0B61F89F5F7642D309B9FE39 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96F1EF36D933DC535A0943 /* RootView.swift */; };
+		1B342A6E8F5E582309FD33CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6DB0E2422AC8A7CF5AD8D /* SettingsView.swift */; };
+		BD322154ACA7B1DEEF2E6D15 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478754CAC1E834021476F8C0 /* SidebarView.swift */; };
+		D2549022C359896BD6207103 /* TagRenameSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42815AA06AFAC6995D34863 /* TagRenameSheet.swift */; };
+		B18A91ACD6E334D681DB8E86 /* TemplateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D578A46D2C910DB16592BB6 /* TemplateViews.swift */; };
+		25F6C43077872848E0897B8A /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14B8098880A01223D7B567 /* UnlockView.swift */; };
+		2C6474BF9E1BB88FEC961F0F /* UpdateWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E2BF817A9F6B69B2184F3D /* UpdateWindow.swift */; };
+		BF7F12B1E7E20A51DB57BCD4 /* VaultSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458506F1BCC9AC44A6C0F0F /* VaultSetupView.swift */; };
+		81E3FE103EF8D0F1101AAE73 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55CFCACFBD1C44E6675C95 /* AppSettings.swift */; };
+		692E6A8D3397F2706E8277CC /* AutoBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F408EA9167FCF91C27EBB37 /* AutoBackup.swift */; };
+		24FEB035B83BAA8774B7E96E /* AutoLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3790F36E01041160508757D3 /* AutoLockController.swift */; };
+		6AC13722EB0986B91840BF60 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C6FBD47AF92D1611B3C8 /* Backup.swift */; };
+		6F60A5E49285CECFF30CE4BD /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF204BF073591E0D685F0A11 /* Exporter.swift */; };
+		627787C43EC11FA89C3C77DE /* MarkdownImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA258B81B15638B71978A /* MarkdownImporter.swift */; };
+		DC6B48E5E2E10483A64A77C1 /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E301B1B89798C12F815BFE /* Updater.swift */; };
+		77FC94961A6CC1CA75AA5F24 /* BrowserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651698E171892276F9AAF0A7 /* BrowserModel.swift */; };
+		33D8BC1DD1FB4411AED6204C /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29E4B1DF190A0091F7E586 /* BrowserView.swift */; };
+		F0EB598FB790C66BD22AC206 /* DocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E7E49AA6602275FF57338 /* DocumentStore.swift */; };
+		BA358F005C89F3E98725CF9F /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90430220C3CBADCE22152296 /* PDFViewer.swift */; };
+		62AE273356B82D75264B6719 /* HelpContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2276D988FD27BD5DCDDBFFB /* HelpContent.swift */; };
+		8F5773C09EBF8E4C9D09CE31 /* HelpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BAE7A0534AD7420296BF /* HelpWindow.swift */; };
+		9864A221C822C0B6A61A7AD1 /* CompletionPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E245D987970F65EB705B7E /* CompletionPopup.swift */; };
+		8848295BB32FB04301048E86 /* MarkdownHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFECA591744E2493280188 /* MarkdownHighlighter.swift */; };
+		25B80BE6E90E7F5720831088 /* MarkdownPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2CCF227F39AF36923B20E /* MarkdownPreviewView.swift */; };
+		91B0635BF48E71A842760753 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA13FC54F16CF2A972827E /* MarkdownRenderer.swift */; };
+		770DACDE328797965B2E0ACE /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3828978C045EC3019F7283 /* MarkdownTextView.swift */; };
+		9CBB20B80A17296D07DF1623 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D180312A84992E5AF751061 /* MenuBarController.swift */; };
+		393CC22879227CF4DA5CDD5F /* QuickNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D8F7FB91EB05C6D71445D /* QuickNoteView.swift */; };
+		78579F34F510538E27A15302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BB636196F91ED59D7A4919 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2A57DC1D883FD21FB995169 /* RNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BB636196F91ED59D7A4919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972F1DEF06E49F97773AACAD /* RNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNotesApp.swift; sourceTree = "<group>"; };
+		9A9413354F434D90D21D4D10 /* RNotesCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNotesCommands.swift; sourceTree = "<group>"; };
+		695BB7C8F6CF8D7F64135F74 /* Attachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachments.swift; sourceTree = "<group>"; };
+		D3E42ACC1084181704785DBC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7CE742F1D361E09121DA9108 /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		6217418F1E3C697DB8917826 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		5B8C7A58A65969594343F483 /* Templates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
+		06F8633E5ED37D849D7B2148 /* WikiLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiLinks.swift; sourceTree = "<group>"; };
+		2262B1BF2DC9A4192498278D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F955D5AFF59B17E790893B09 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		A407780057371DBF5BA484F9 /* CryptoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBox.swift; sourceTree = "<group>"; };
+		26FB2A7780132964F723B53B /* Vault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
+		686F3560DA96B5FFAF70FD99 /* BacklinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacklinksView.swift; sourceTree = "<group>"; };
+		7063D02FA2844AC5A7573D19 /* ChainedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedField.swift; sourceTree = "<group>"; };
+		371ECC19E42D4ECFD61D7015 /* FolderNameSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderNameSheet.swift; sourceTree = "<group>"; };
+		3842C3B92231FF19613400BF /* LockedNotesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedNotesViews.swift; sourceTree = "<group>"; };
+		C6A1695B0039A258464FAEFE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B130F6B79BE112FAD0F8A044 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		C92A55AACE7165649F9C33DF /* NoteInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteInfoView.swift; sourceTree = "<group>"; };
+		C46A7064891C9E85F29DFDF2 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		6E96F1EF36D933DC535A0943 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		EDA6DB0E2422AC8A7CF5AD8D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		478754CAC1E834021476F8C0 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		E42815AA06AFAC6995D34863 /* TagRenameSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagRenameSheet.swift; sourceTree = "<group>"; };
+		9D578A46D2C910DB16592BB6 /* TemplateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViews.swift; sourceTree = "<group>"; };
+		0A14B8098880A01223D7B567 /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
+		41E2BF817A9F6B69B2184F3D /* UpdateWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateWindow.swift; sourceTree = "<group>"; };
+		B458506F1BCC9AC44A6C0F0F /* VaultSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSetupView.swift; sourceTree = "<group>"; };
+		3F55CFCACFBD1C44E6675C95 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		0F408EA9167FCF91C27EBB37 /* AutoBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoBackup.swift; sourceTree = "<group>"; };
+		3790F36E01041160508757D3 /* AutoLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLockController.swift; sourceTree = "<group>"; };
+		78D7C6FBD47AF92D1611B3C8 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		DF204BF073591E0D685F0A11 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
+		95DCA258B81B15638B71978A /* MarkdownImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownImporter.swift; sourceTree = "<group>"; };
+		33E301B1B89798C12F815BFE /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		651698E171892276F9AAF0A7 /* BrowserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModel.swift; sourceTree = "<group>"; };
+		4C29E4B1DF190A0091F7E586 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		2B4E7E49AA6602275FF57338 /* DocumentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStore.swift; sourceTree = "<group>"; };
+		90430220C3CBADCE22152296 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		B2276D988FD27BD5DCDDBFFB /* HelpContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContent.swift; sourceTree = "<group>"; };
+		3471BAE7A0534AD7420296BF /* HelpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpWindow.swift; sourceTree = "<group>"; };
+		A2E245D987970F65EB705B7E /* CompletionPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionPopup.swift; sourceTree = "<group>"; };
+		57AFECA591744E2493280188 /* MarkdownHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownHighlighter.swift; sourceTree = "<group>"; };
+		F9B2CCF227F39AF36923B20E /* MarkdownPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPreviewView.swift; sourceTree = "<group>"; };
+		7DFA13FC54F16CF2A972827E /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		CF3828978C045EC3019F7283 /* MarkdownTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
+		0D180312A84992E5AF751061 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		9F3D8F7FB91EB05C6D71445D /* QuickNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNoteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				1C8272195ECF009A7977B9F3 /* RNotes */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A57DC1D883FD21FB995169 /* RNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C8272195ECF009A7977B9F3 /* RNotes */ = {
+			isa = PBXGroup;
+			children = (
+				F65917308E46792F66DE3FDD /* App */,
+				3E797641C59AA877D7300E59 /* Models */,
+				4A1F042E084C31B1DB596858 /* Storage */,
+				4140767412AEB5917AECBA1C /* Crypto */,
+				820EF62CADFCC56B9389F6FE /* Views */,
+				155AC2EB410B7777FB844E10 /* Support */,
+				8E105AEE8786D42F6C7F2D82 /* Browser */,
+				9D2EB6DC602BEA5548ABFD5C /* Documents */,
+				9F9A1405A4175F5F0B467CA0 /* Help */,
+				680E07336E725E04045B398B /* Markdown */,
+				0E82A01559409965C28D0339 /* MenuBar */,
+				32BB636196F91ED59D7A4919 /* Assets.xcassets */,
+			);
+			path = RNotes;
+			sourceTree = "<group>";
+		};
+		F65917308E46792F66DE3FDD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				972F1DEF06E49F97773AACAD /* RNotesApp.swift */,
+				9A9413354F434D90D21D4D10 /* RNotesCommands.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3E797641C59AA877D7300E59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				695BB7C8F6CF8D7F64135F74 /* Attachments.swift */,
+				D3E42ACC1084181704785DBC /* Models.swift */,
+				7CE742F1D361E09121DA9108 /* NoteStore.swift */,
+				6217418F1E3C697DB8917826 /* Tags.swift */,
+				5B8C7A58A65969594343F483 /* Templates.swift */,
+				06F8633E5ED37D849D7B2148 /* WikiLinks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A1F042E084C31B1DB596858 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				2262B1BF2DC9A4192498278D /* Database.swift */,
+				F955D5AFF59B17E790893B09 /* SQLite.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4140767412AEB5917AECBA1C /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				A407780057371DBF5BA484F9 /* CryptoBox.swift */,
+				26FB2A7780132964F723B53B /* Vault.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		820EF62CADFCC56B9389F6FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				686F3560DA96B5FFAF70FD99 /* BacklinksView.swift */,
+				7063D02FA2844AC5A7573D19 /* ChainedField.swift */,
+				371ECC19E42D4ECFD61D7015 /* FolderNameSheet.swift */,
+				3842C3B92231FF19613400BF /* LockedNotesViews.swift */,
+				C6A1695B0039A258464FAEFE /* MainView.swift */,
+				B130F6B79BE112FAD0F8A044 /* NoteEditorView.swift */,
+				C92A55AACE7165649F9C33DF /* NoteInfoView.swift */,
+				C46A7064891C9E85F29DFDF2 /* NoteListView.swift */,
+				6E96F1EF36D933DC535A0943 /* RootView.swift */,
+				EDA6DB0E2422AC8A7CF5AD8D /* SettingsView.swift */,
+				478754CAC1E834021476F8C0 /* SidebarView.swift */,
+				E42815AA06AFAC6995D34863 /* TagRenameSheet.swift */,
+				9D578A46D2C910DB16592BB6 /* TemplateViews.swift */,
+				0A14B8098880A01223D7B567 /* UnlockView.swift */,
+				41E2BF817A9F6B69B2184F3D /* UpdateWindow.swift */,
+				B458506F1BCC9AC44A6C0F0F /* VaultSetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		155AC2EB410B7777FB844E10 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3F55CFCACFBD1C44E6675C95 /* AppSettings.swift */,
+				0F408EA9167FCF91C27EBB37 /* AutoBackup.swift */,
+				3790F36E01041160508757D3 /* AutoLockController.swift */,
+				78D7C6FBD47AF92D1611B3C8 /* Backup.swift */,
+				DF204BF073591E0D685F0A11 /* Exporter.swift */,
+				95DCA258B81B15638B71978A /* MarkdownImporter.swift */,
+				33E301B1B89798C12F815BFE /* Updater.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8E105AEE8786D42F6C7F2D82 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				651698E171892276F9AAF0A7 /* BrowserModel.swift */,
+				4C29E4B1DF190A0091F7E586 /* BrowserView.swift */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		9D2EB6DC602BEA5548ABFD5C /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				2B4E7E49AA6602275FF57338 /* DocumentStore.swift */,
+				90430220C3CBADCE22152296 /* PDFViewer.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		9F9A1405A4175F5F0B467CA0 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				B2276D988FD27BD5DCDDBFFB /* HelpContent.swift */,
+				3471BAE7A0534AD7420296BF /* HelpWindow.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		680E07336E725E04045B398B /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				A2E245D987970F65EB705B7E /* CompletionPopup.swift */,
+				57AFECA591744E2493280188 /* MarkdownHighlighter.swift */,
+				F9B2CCF227F39AF36923B20E /* MarkdownPreviewView.swift */,
+				7DFA13FC54F16CF2A972827E /* MarkdownRenderer.swift */,
+				CF3828978C045EC3019F7283 /* MarkdownTextView.swift */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
+		0E82A01559409965C28D0339 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D180312A84992E5AF751061 /* MenuBarController.swift */,
+				9F3D8F7FB91EB05C6D71445D /* QuickNoteView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* RNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449CDAD090025738145986EB /* Build configuration list for PBXNativeTarget "RNotes" */;
+			buildPhases = (
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNotes;
+			productName = RNotes;
+			productReference = D2A57DC1D883FD21FB995169 /* RNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "RTECH OSS";
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CE36D6306C17890370B358E3 /* Build configuration list for PBXProject "RNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* RNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78579F34F510538E27A15302 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFBA0A6455BCA4409550530 /* RNotesApp.swift in Sources */,
+				9B0584B21C4EF9120AF3FC80 /* RNotesCommands.swift in Sources */,
+				A45C011294F18F8528A99CC6 /* Attachments.swift in Sources */,
+				89AE0911973C318ABBC87C09 /* Models.swift in Sources */,
+				2D3EF59DAEB58FC5A1D9BD06 /* NoteStore.swift in Sources */,
+				DA5B27BBBC8B9642CCC7AF75 /* Tags.swift in Sources */,
+				6AE59A0639AE9A5A0D5D8525 /* Templates.swift in Sources */,
+				D4A9CC04461AACB71825F81C /* WikiLinks.swift in Sources */,
+				F4B4654A0C003FEEDD0214EB /* Database.swift in Sources */,
+				43226131DD251D13273E5674 /* SQLite.swift in Sources */,
+				9EE11DA5F629C8B9D72F2F43 /* CryptoBox.swift in Sources */,
+				95F347CD690915C59B53A36C /* Vault.swift in Sources */,
+				4108E773703C96627BEE0EC8 /* BacklinksView.swift in Sources */,
+				E79BB547ED4BE5A144456AE2 /* ChainedField.swift in Sources */,
+				5780AD64066F0341A42A4834 /* FolderNameSheet.swift in Sources */,
+				90F8FB8166251DE1856C8A8C /* LockedNotesViews.swift in Sources */,
+				7A4546970212433C9396EFD8 /* MainView.swift in Sources */,
+				B3BDB52B3377949BE8FC6CED /* NoteEditorView.swift in Sources */,
+				BBDF874CEFCA3D57D19A620B /* NoteInfoView.swift in Sources */,
+				68FB07A6F20DC742F6D2F268 /* NoteListView.swift in Sources */,
+				0B61F89F5F7642D309B9FE39 /* RootView.swift in Sources */,
+				1B342A6E8F5E582309FD33CB /* SettingsView.swift in Sources */,
+				BD322154ACA7B1DEEF2E6D15 /* SidebarView.swift in Sources */,
+				D2549022C359896BD6207103 /* TagRenameSheet.swift in Sources */,
+				B18A91ACD6E334D681DB8E86 /* TemplateViews.swift in Sources */,
+				25F6C43077872848E0897B8A /* UnlockView.swift in Sources */,
+				2C6474BF9E1BB88FEC961F0F /* UpdateWindow.swift in Sources */,
+				BF7F12B1E7E20A51DB57BCD4 /* VaultSetupView.swift in Sources */,
+				81E3FE103EF8D0F1101AAE73 /* AppSettings.swift in Sources */,
+				692E6A8D3397F2706E8277CC /* AutoBackup.swift in Sources */,
+				24FEB035B83BAA8774B7E96E /* AutoLockController.swift in Sources */,
+				6AC13722EB0986B91840BF60 /* Backup.swift in Sources */,
+				6F60A5E49285CECFF30CE4BD /* Exporter.swift in Sources */,
+				627787C43EC11FA89C3C77DE /* MarkdownImporter.swift in Sources */,
+				DC6B48E5E2E10483A64A77C1 /* Updater.swift in Sources */,
+				77FC94961A6CC1CA75AA5F24 /* BrowserModel.swift in Sources */,
+				33D8BC1DD1FB4411AED6204C /* BrowserView.swift in Sources */,
+				F0EB598FB790C66BD22AC206 /* DocumentStore.swift in Sources */,
+				BA358F005C89F3E98725CF9F /* PDFViewer.swift in Sources */,
+				62AE273356B82D75264B6719 /* HelpContent.swift in Sources */,
+				8F5773C09EBF8E4C9D09CE31 /* HelpWindow.swift in Sources */,
+				9864A221C822C0B6A61A7AD1 /* CompletionPopup.swift in Sources */,
+				8848295BB32FB04301048E86 /* MarkdownHighlighter.swift in Sources */,
+				25B80BE6E90E7F5720831088 /* MarkdownPreviewView.swift in Sources */,
+				91B0635BF48E71A842760753 /* MarkdownRenderer.swift in Sources */,
+				770DACDE328797965B2E0ACE /* MarkdownTextView.swift in Sources */,
+				9CBB20B80A17296D07DF1623 /* MenuBarController.swift in Sources */,
+				393CC22879227CF4DA5CDD5F /* QuickNoteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27215BEB910BA504F03CFB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FDC84E905F8E643EE1884BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5AF3EE45171718374DFFC705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 37;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RNotes;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "RNotes asks Pages to save exported notes as Pages documents.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 RTECH OSS. MIT License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtechoss.RNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5CFA188EA7F352255591A33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 37;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RNotes;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "RNotes asks Pages to save exported notes as Pages documents.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 RTECH OSS. MIT License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtechoss.RNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE36D6306C17890370B358E3 /* Build configuration list for PBXProject "RNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27215BEB910BA504F03CFB6F /* Debug */,
+				2FDC84E905F8E643EE1884BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449CDAD090025738145986EB /* Build configuration list for PBXNativeTarget "RNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF3EE45171718374DFFC705 /* Debug */,
+				5CFA188EA7F352255591A33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

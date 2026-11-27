@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__MACOSX/
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+build.log
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Update publishing output (tools/rnotes-publish.swift)
+publish/
+
+# Signing keys: never commit (the real key lives in ~/.rnotes-update-key)
+*.rnotes-update-key
+.rnotes-update-key
